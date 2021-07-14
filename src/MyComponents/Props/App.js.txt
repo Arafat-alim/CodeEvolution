@@ -1,0 +1,36 @@
+//** note remove me then paste it
+//** Functional Component Props -  FileFun.jsx
+//** Same for Class Component Props - FileClass.jsx 
+
+
+import "./App.css";
+import FileFun from "./MyComponents/Props/FileFun";
+
+function App() {
+  return (
+    <div className="App">
+      {/* Object with value passing  */}
+      <FileFun name="Arafat" />
+      {/* children props is passing */}
+      <FileFun>GOKU is the boss</FileFun>
+    </div>
+  );
+}
+
+export default App;
+
+
++++++++++++++++++++++++++++++
+//** Class Component Props
+function App() {
+  return (
+    <div className="App">
+      <FileClass name="GOhan" />
+      <FileClass>
+        <button>Submit Here</button>
+      </FileClass>
+    </div>
+  );
+}
+
+export default App;
