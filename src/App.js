@@ -1,13 +1,10 @@
 import "./App.css";
-import FileClass from "./MyComponents/Props/FileClass";
+import ClassState from "./MyComponents/State/ClassState";
 
 function App() {
   return (
     <div className="App">
-      <FileClass name="GOhan" />
-      <FileClass>
-        <button>Submit Here</button>
-      </FileClass>
+      <ClassState />
     </div>
   );
 }
