@@ -1,11 +1,10 @@
 import "./App.css";
-
-import FunctionClick from "./MyComponents/Event-Handling/FunctionClick";
+import ClassClick from "./MyComponents/Event-Handling/ClassClick";
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
+      <ClassClick />
     </div>
   );
 }
