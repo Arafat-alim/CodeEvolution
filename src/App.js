@@ -1,10 +1,10 @@
 import "./App.css";
-import ClassState from "./MyComponents/State/ClassState";
+import ClassState2 from "./MyComponents/State/ClassState2";
 
 function App() {
   return (
     <div className="App">
-      <ClassState />
+      <ClassState2 />
     </div>
   );
 }

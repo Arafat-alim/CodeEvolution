@@ -1,0 +1,7 @@
+onIncrement() {
+//if my setState is based on prevState with props then 
+this.setState((prevState, props) => ({
+count: prevState.count + props.addValue}))
+}
+
+//props coming from the component
