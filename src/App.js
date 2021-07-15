@@ -1,10 +1,12 @@
 import "./App.css";
-import ClassState2 from "./MyComponents/State/ClassState2";
+import PropDes2 from "./MyComponents/Destructuring/PropDes2";
+import PropsDes1 from "./MyComponents/Destructuring/PropsDes1";
 
 function App() {
   return (
     <div className="App">
-      <ClassState2 />
+      <PropsDes1 name={"Arafat"} heroname={"Boss"} />
+      <PropDes2 name={"Boss"} quality={"back"} />
     </div>
   );
 }
