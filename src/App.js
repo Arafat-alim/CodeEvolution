@@ -1,10 +1,10 @@
 import "./App.css";
-import ClassClick from "./MyComponents/Event-Handling/ClassClick";
+import BindingClick from "./MyComponents/Event-Handling/BindingClick";
 
 function App() {
   return (
     <div className="App">
-      <ClassClick />
+      <BindingClick />
     </div>
   );
 }
