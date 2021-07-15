@@ -9,6 +9,7 @@ class BindingClick extends Component {
       message: "Hello",
     };
   }
+  //using an arrow function for declaration
   clickHandler = () => {
     this.setState({
       message: "Goodbye!",
@@ -18,7 +19,7 @@ class BindingClick extends Component {
     return (
       <div>
         <h1>{this.state.message}</h1>
-        {/* Approach 3: Constructor Bind*/}
+        {/* Approach 4: Class Property */}
         <button onClick={this.clickHandler}>Click Me</button>
       </div>
     );
