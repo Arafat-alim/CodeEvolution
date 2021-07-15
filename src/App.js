@@ -1,10 +1,11 @@
 import "./App.css";
-import StateDes1 from "./MyComponents/Destructuring/StateDes1";
+
+import FunctionClick from "./MyComponents/Event-Handling/FunctionClick";
 
 function App() {
   return (
     <div className="App">
-      <StateDes1 name={"Google"} value={10000} />
+      <FunctionClick />
     </div>
   );
 }
