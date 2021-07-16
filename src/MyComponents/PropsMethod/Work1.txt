@@ -1,0 +1,52 @@
+// Here Parent send props as a method Props to the children Component
+
+import React, { Component } from "react";
+import ChildComponent from "./ChildComponent";
+
+class ParentComponent extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      message: "Great to See You!",
+    };
+
+    //for better event handling using apprach 3 binding constructor
+    this.greetMessage = this.greetMessage.bind(this);
+  }
+
+  greetMessage() {
+    //this method can be pass to childComponent
+    alert(`Hello ${this.state.message}`);
+  }
+  render() {
+    return (
+      <div>
+        <ChildComponent clickHandler={this.greetMessage} />
+      </div>
+    );
+  }
+}
+
+export default ParentComponent;
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+//Getting Methods Props from the ParentComponent
+
+import React from "react";
+
+function ChildComponent(props) {
+  return (
+    <div>
+      <button onClick={props.clickHandler}>Greet Parent</button>
+    </div>
+  );
+}
+
+export default ChildComponent;
+
+
+--------------------------------------------------------------------------------------------
