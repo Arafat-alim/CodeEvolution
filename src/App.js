@@ -1,11 +1,10 @@
 import "./App.css";
-
-import ParentComponent from "./MyComponents/PropsMethod/ParentComponent";
+import IfElseStatement from "./MyComponents/ConditionalRendering/IfElseStatement";
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <IfElseStatement />
     </div>
   );
 }
