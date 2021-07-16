@@ -1,10 +1,10 @@
 import "./App.css";
-import TernaryConditonal from "./MyComponents/ConditionalRendering/TernaryConditonal";
+import ShortCircuit from "./MyComponents/ConditionalRendering/ShortCircuit";
 
 function App() {
   return (
     <div className="App">
-      <TernaryConditonal />
+      <ShortCircuit />
     </div>
   );
 }
