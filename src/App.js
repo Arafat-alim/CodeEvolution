@@ -1,11 +1,10 @@
 import "./App.css";
-
-import ListRendering2Obj from "./MyComponents/ListRendering/ListRendering2Obj";
+import ListRenderingProps from "./MyComponents/ListRendering/ListRenderingProps";
 
 function App() {
   return (
     <div className="App">
-      <ListRendering2Obj />
+      <ListRenderingProps />
     </div>
   );
 }
