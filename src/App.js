@@ -1,10 +1,10 @@
 import "./App.css";
-import ElementVarIfElse from "./MyComponents/ConditionalRendering/ElementVarIfElse";
+import TernaryConditonal from "./MyComponents/ConditionalRendering/TernaryConditonal";
 
 function App() {
   return (
     <div className="App">
-      <ElementVarIfElse />
+      <TernaryConditonal />
     </div>
   );
 }
