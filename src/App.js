@@ -1,10 +1,10 @@
 import "./App.css";
-import ShortCircuit from "./MyComponents/ConditionalRendering/ShortCircuit";
+import ListRendering1 from "./MyComponents/ListRendering/ListRendering1";
 
 function App() {
   return (
     <div className="App">
-      <ShortCircuit />
+      <ListRendering1 />
     </div>
   );
 }
