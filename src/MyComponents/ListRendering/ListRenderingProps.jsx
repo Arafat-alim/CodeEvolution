@@ -25,7 +25,9 @@ function ListRenderingProps() {
     },
   ];
 
-  let personProps = personList.map((person) => <ListProp person={person} />);
+  let personProps = personList.map((person) => (
+    <ListProp key={person.sno} person={person} />
+  ));
   return (
     <div>
       <h1>{personProps}</h1>
