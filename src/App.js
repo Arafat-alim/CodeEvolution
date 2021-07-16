@@ -1,10 +1,10 @@
 import "./App.css";
-import IfElseStatement from "./MyComponents/ConditionalRendering/IfElseStatement";
+import ElementVarIfElse from "./MyComponents/ConditionalRendering/ElementVarIfElse";
 
 function App() {
   return (
     <div className="App">
-      <IfElseStatement />
+      <ElementVarIfElse />
     </div>
   );
 }
