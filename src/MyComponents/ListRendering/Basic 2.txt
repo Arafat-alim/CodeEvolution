@@ -1,3 +1,4 @@
+//code more simpler in simplest form
 import React from "react";
 
 export default function ListRendering1() {
