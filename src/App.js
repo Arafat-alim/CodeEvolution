@@ -1,14 +1,11 @@
+import React from "react";
 import "./App.css";
-import Inline from "./MyComponents/StylingComponent/Inline";
-import "./MyComponents/StylingComponent/myStyles.css";
-import styles from "./MyComponents/StylingComponent/appStyles.module.css";
+import BasicForm from "./MyComponents/FormHandling/BasicForm";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="error">Error</h1>
-      <h1 className={styles.success}>Success</h1>
-      <Inline />
+      <BasicForm />
     </div>
   );
 }
