@@ -30,6 +30,7 @@ class BasicForm extends Component {
   };
 
   handleSubmit = (e) => {
+    e.preventDefault();
     alert(
       `Username - ${this.state.username}, Comments - ${this.state.textarea}, Topics - ${this.state.topics}`
     );
