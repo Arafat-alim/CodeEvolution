@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import BasicForm from "./MyComponents/FormHandling/BasicForm";
+
+import MountingA from "./MyComponents/LifeCycleMethod/MountingA";
 
 function App() {
   return (
     <div className="App">
-      <BasicForm />
+      <MountingA />
     </div>
   );
 }
