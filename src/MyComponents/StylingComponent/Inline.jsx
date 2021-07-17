@@ -8,6 +8,7 @@ function Inline() {
   return (
     <div>
       <h1 style={styling}>gooogle</h1>
+      <h2 className="error">ROmio</h2>
     </div>
   );
 }
