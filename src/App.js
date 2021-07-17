@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-
-import UpdatingA from "./MyComponents/LifeCycleMethod/UpdatingA";
+import LifeCyclePhase from "./MyComponents/LifeCycleMethod/LifeCyclePhase";
 
 function App() {
   return (
     <div className="App">
-      <UpdatingA />
+      <LifeCyclePhase />
     </div>
   );
 }
