@@ -12,8 +12,13 @@ export default class MultipleInputHandling extends Component {
 
   handleChange = (e) => {
     console.log(e.target.name);
+    const pas =
+      e.target.name === "password"
+        ? e.target.value.toUpperCase()
+        : e.target.value;
+    console.log(pas);
     this.setState({
-      [e.target.name]: e.target.value,
+      [e.target.name]: pas,
     });
   };
 
@@ -33,7 +38,7 @@ export default class MultipleInputHandling extends Component {
           <div>
             <label htmlFor="password">Password</label>
             <input
-              type="type"
+              type="text"
               name="password"
               value={this.state.password}
               onChange={this.handleChange}
