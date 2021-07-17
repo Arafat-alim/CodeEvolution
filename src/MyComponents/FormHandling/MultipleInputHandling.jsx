@@ -10,15 +10,10 @@ export default class MultipleInputHandling extends Component {
     };
   }
 
-  handleUser = (e) => {
+  handleChange = (e) => {
+    console.log(e.target.name);
     this.setState({
-      username: e.target.value,
-    });
-  };
-
-  handlePass = (e) => {
-    this.setState({
-      password: e.target.value,
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -30,16 +25,18 @@ export default class MultipleInputHandling extends Component {
             <label htmlFor="username">User Name</label>
             <input
               type="text"
+              name="username"
               value={this.state.username}
-              onChange={this.handleUser}
+              onChange={this.handleChange}
             />
           </div>
           <div>
             <label htmlFor="password">Password</label>
             <input
-              type="text"
+              type="type"
+              name="password"
               value={this.state.password}
-              onChange={this.handlePass}
+              onChange={this.handleChange}
             />
           </div>
         </form>
