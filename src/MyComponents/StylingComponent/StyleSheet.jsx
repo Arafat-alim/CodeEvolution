@@ -1,10 +1,11 @@
 import React from "react";
 import "./myStyle.css";
 
-function StyleSheet() {
+function StyleSheet(props) {
+  let classname = props.primary ? "primary" : " ";
   return (
     <div>
-      <h1 className={"primary"}>Google</h1>
+      <h1 className={classname}>Google</h1>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import StyleSheet from "./MyComponents/StylingComponent/StyleSheet";
 function App() {
   return (
     <div className="App">
-      <StyleSheet />
+      <StyleSheet primary={false} />
     </div>
   );
 }
