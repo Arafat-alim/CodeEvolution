@@ -5,3 +5,7 @@ body {
 .primary {
   color: red;
 }
+
+.font-xl {
+  font-size: 72px;
+}
