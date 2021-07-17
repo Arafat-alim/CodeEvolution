@@ -1,10 +1,10 @@
 import "./App.css";
-import ListRenderingProps from "./MyComponents/ListRendering/ListRenderingProps";
+import IndexAsKey from "./MyComponents/ListRendering/IndexAsKey";
 
 function App() {
   return (
     <div className="App">
-      <ListRenderingProps />
+      <IndexAsKey />
     </div>
   );
 }
