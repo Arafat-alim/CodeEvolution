@@ -1,10 +1,11 @@
 import "./App.css";
-import IndexAsKey from "./MyComponents/ListRendering/IndexAsKey";
+
+import StyleSheet from "./MyComponents/StylingComponent/StyleSheet";
 
 function App() {
   return (
     <div className="App">
-      <IndexAsKey />
+      <StyleSheet />
     </div>
   );
 }
