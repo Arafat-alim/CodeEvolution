@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import MultipleInputHandling from "./MyComponents/FormHandling/MultipleInputHandling";
+import ImageFile from "./MyComponents/ImageAssets/ImageFile";
 
 function App() {
-  return <div className="App">{<MultipleInputHandling />}</div>;
+  return <div className="App">{<ImageFile />}</div>;
 }
 
 export default App;
