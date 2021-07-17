@@ -10,6 +10,7 @@ class MountingA extends Component {
     };
     console.log("MountingA Constructor ");
   }
+
   static getDerivedStateFromProps(props, state) {
     console.log("MountingA getDerivedFromProps Method");
     return null; //has to return state, here returning null

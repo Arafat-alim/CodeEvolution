@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 
-import MountingA from "./MyComponents/LifeCycleMethod/MountingA";
+import UpdatingA from "./MyComponents/LifeCycleMethod/UpdatingA";
 
 function App() {
   return (
     <div className="App">
-      <MountingA />
+      <UpdatingA />
     </div>
   );
 }
