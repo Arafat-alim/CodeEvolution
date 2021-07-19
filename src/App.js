@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-import ImageFile from "./MyComponents/ImageAssets/ImageFile";
+
+import FragmentTable from "./MyComponents/ReactFragment/FragmentTable";
 
 function App() {
-  return <div className="App">{<ImageFile />}</div>;
+  return <div className="App">{<FragmentTable />}</div>;
 }
 
 export default App;
