@@ -10,11 +10,14 @@ class RefsDemo extends Component {
     console.log(this.inputRefs);
     this.inputRefs.current.focus();
   }
-
+  clickHandler = () => {
+    alert(this.inputRefs.current.value);
+  };
   render() {
     return (
       <div>
         <input type="text" ref={this.inputRefs} />
+        <button onClick={this.clickHandler}>Click Me</button>
       </div>
     );
   }
