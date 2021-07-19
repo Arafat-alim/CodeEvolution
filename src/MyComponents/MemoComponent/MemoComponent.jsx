@@ -5,4 +5,4 @@ function MemoComponent({ name }) {
   return <div>Memo Component {name}</div>;
 }
 
-export default MemoComponent;
+export default React.memo(MemoComponent);
