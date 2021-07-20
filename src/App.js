@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import RefsClassCompParent from "./MyComponents/Refs/RefsClassCompParent";
+import FowardInputParent from "./MyComponents/Refs/FowardInputParent";
 
 function App() {
-  return <div className="App">{<RefsClassCompParent />}</div>;
+  return <div className="App">{<FowardInputParent />}</div>;
 }
 
 export default App;
