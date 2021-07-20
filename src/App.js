@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import CallbackRef from "./MyComponents/Refs/CallbackRef";
+import RefsClassCompParent from "./MyComponents/Refs/RefsClassCompParent";
 
 function App() {
-  return <div className="App">{<CallbackRef />}</div>;
+  return <div className="App">{<RefsClassCompParent />}</div>;
 }
 
 export default App;
