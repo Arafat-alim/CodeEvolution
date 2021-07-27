@@ -7,6 +7,7 @@ function UseStateThree() {
 
   function decrement() {
     setCount((prevState) => prevState - 1);
+    setTheme("blue");
   }
 
   function increment() {
