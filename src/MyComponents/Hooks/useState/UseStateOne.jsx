@@ -1,8 +1,19 @@
 import React, { useState } from "react";
 //creating a counter using useState
+// function initialCount() { //3rd this will lead to call funciton whenever i clicked, dont follow these approach
+//   console.log("run function");
+//   return 4;
+// }
 
 function UseStateOne() {
-  const [count, setCount] = useState(4);
+  //   const [count, setCount] = useState(4); // 1st wrtiting 4 is doesnt matter
+  const [count, setCount] = useState(() => {
+    //2nd way to do
+    console.log("run function"); // it will call once
+    return 4;
+  });
+  //   const [count, setCount] = useState(initialCount()); //3rd way, dont follow this approach go with 1st or 2nd
+
   function decrement() {
     // setCount(count - 1); //1st way which is not a  correct way to do this
     //setCount(count - 1); //if we call this method twice, it will decrease by two
