@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-import UseStateOne from "./MyComponents/Hooks/useState/UseStateOne";
+
+import UseStateTwo from "./MyComponents/Hooks/useState/UseStateTwo";
 
 function App() {
-  return <div className="App">{<UseStateOne />}</div>;
+  return <div className="App">{<UseStateTwo />}</div>;
 }
 
 export default App;
