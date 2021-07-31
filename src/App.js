@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
-import HolidayList from "./MyComponents/HomworkNewtonSchool/HolidayList";
+
+import ListRelatives from "./MyComponents/HomworkNewtonSchool/ListRelatives";
 // import UseEffectOne from "./MyComponents/Hooks/UseEffect/UseEffectOne";
 
 function App() {
-  return <div className="App">{<HolidayList />}</div>;
+  return <div className="App">{<ListRelatives />}</div>;
 }
 
 export default App;
