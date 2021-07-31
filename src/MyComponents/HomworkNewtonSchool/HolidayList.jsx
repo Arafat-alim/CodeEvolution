@@ -44,9 +44,10 @@ export default class HolidayList extends Component {
       <div>
         <ol>
           {this.cityList
+            .slice(0, 6)
             .filter((city) => city.country === "India")
-            .map((cityname, location) => {
-              return <li key={location}>{cityname.name}</li>;
+            .map((cityname, index) => {
+              return <li key={`location${index + 1}`}>{cityname.name}</li>;
             })}
         </ol>
       </div>
