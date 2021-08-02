@@ -1,12 +1,18 @@
 import React, { useState, useReducer } from "react";
 
 // const [state, dispatch] = useReducer(reducer, initialState, init) //syntax
+
+//constants
+const ACTION = {
+  INCREMENT: "increment",
+  DECREMENT: "decrement",
+};
 function reducer(state, action) {
   switch (action.type) {
-    case "increment":
+    case ACTION.INCREMENT:
       return { count: state.count + 1 };
 
-    case "decrement":
+    case ACTION.DECREMENT:
       return { count: state.count - 1 };
     default:
       break;
