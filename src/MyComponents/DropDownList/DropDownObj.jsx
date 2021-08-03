@@ -19,7 +19,7 @@ export default function DropDownObj() {
           );
         })}
 
-        <img src={user?.image} width="80%" alt="" />
+        <img src={user?.image} alt="" />
       </select>
     </div>
   );
